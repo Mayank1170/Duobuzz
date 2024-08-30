@@ -6,29 +6,22 @@ export const leftSidebarLinks : LeftSidebarLinkInfo[] = [
         {
             id: 1,
             title: "Home",
-            href: "/home",
+            href: "/",
             icon: "hut",
             child: true
         },
         {
             id: 1,
-            title: "Discover",
-            href: "/discover",
-            icon: "discover",
-            child: true
-        },
-        {
-            id: 1,
-            title: "Albumn",
-            href: "/albumn",
-            icon: "category",
+            title: "Music",
+            href: "/Music",
+            icon: "music",
             child: true
         },
         {
             id: 1,
             title: "Artists",
             href: "/artists",
-            icon: "setting",
+            icon: "artist",
             child: true
         },
        ]
@@ -48,7 +41,7 @@ export const leftSidebarLinks : LeftSidebarLinkInfo[] = [
                 id: 505,
                 title: "Favorites",
                 href: "/favorites",
-                icon: "heart",
+                icon: "favourite",
                 child: false,
             },
             {
@@ -56,6 +49,13 @@ export const leftSidebarLinks : LeftSidebarLinkInfo[] = [
                 title: "Playlists",
                 href: "/playlists",
                 icon: "playlist",
+                child: true,
+            },
+            {
+                id: 507,
+                title: "Profile",
+                href: "/profile",
+                icon: "profile",
                 child: true,
             },
         ]
