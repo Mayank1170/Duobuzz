@@ -1,6 +1,6 @@
 import React from "react";
 import TrendySlide from "./trendy/TrendySlide";
-// import PopularReleases from "./PopularRelease/popularRelease";
+import PopularReleases from "./PopularRelease/popularRelease";
 import PopularSongs from "./PopularSongs/PopularSongs";
 
 const Home = () => {
@@ -15,7 +15,7 @@ const Home = () => {
         style={{ scrollbarWidth: "none" }}
       >
         <div className="w-full">
-          {/* <PopularReleases /> */}
+          <PopularReleases />
         </div>
         <div className="w-full">
           <PopularSongs />
