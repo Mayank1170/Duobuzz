@@ -3,8 +3,9 @@ import PopularReleaseCard from "./PopularReleaseCard";
 import PopularHeading from "../common/PopularHeading";
 import apiClient from "@/spotify";
 
-const popularRelease = () => {
+const PopularRelease = () => {
   const [popular, setPopular] = useState([]);
+  
   useEffect(() => {
     apiClient.get("/browse/new-releases").then((res: any) => {
       setPopular(res.data.albums.items);
@@ -20,6 +21,7 @@ const popularRelease = () => {
       >
         {popular.map((item: any) => (
           <PopularReleaseCard
+            key={item.id}  // Add a unique key for each item
             image={item.images[0].url}
             name={item.name}
             type={item.type}
@@ -30,4 +32,4 @@ const popularRelease = () => {
   );
 };
 
-export default popularRelease;
+export default PopularRelease;
