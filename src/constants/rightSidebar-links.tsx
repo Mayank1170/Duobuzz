@@ -1,42 +1,29 @@
-export const rightSidebarLinks : RightSidebarLinkInfo[] = [
+const image = "/images/artist/JamesArthur.png";
+
+export const TopRightSidebar: TopRightSidebarInfo[] = [
     {
        id: 1,
        title: "Fans Also Like",
-       links: [
+       info: [
         {
             id: 1,
-            title: "Home",
-            href: "/home",
-            icon: "hut",
-            child: true
+            image: image,
+            name: "James Arthur"
         },
         {
-            id: 1,
-            title: "Discover",
-            href: "/discover",
-            icon: "discover",
-            child: true
-        },
-        {
-            id: 1,
-            title: "Albumn",
-            href: "/albumn",
-            icon: "category",
-            child: true
-        },
-        {
-            id: 1,
-            title: "Artists",
-            href: "/artists",
-            icon: "setting",
-            child: true
+            id: 2,
+            image: image,
+            name: "James Mathur"
         },
        ]
     },
+];
+
+export const BottomRightSidebar : BottomRightSidebarInfo[] = [
     {
         id: 2,
         title: "Recently Played",
-        links: [
+        info: [
             {
                 id: 504,
                 title: "Recents",

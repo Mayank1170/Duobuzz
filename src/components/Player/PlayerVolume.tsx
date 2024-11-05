@@ -21,13 +21,6 @@ const PlayerVolume = () => {
         onChange={(e) => {
           const volume = parseInt(e.target.value);
           e.target.style.background = `linear-gradient(to right, white 0%, white ${volume}%, #4B5563 ${volume}%)`;
-          if (volume === 0) {
-            console.log('Volume is muted');
-          } else if (volume === 100) {
-            console.log('Volume is at maximum');
-          } else {
-            console.log(`Volume set to ${volume}%`);
-          }
         }}
       />
 

@@ -5,7 +5,7 @@ import { LuSearch } from "react-icons/lu";
 const HeaderSearch: React.FC = () => {
 
     return (
-        <div className={"w-[40%] flex flex-row justify-center py-[30px]"}>
+        <div className={"w-[40%] flex flex-row justify-center "}>
            
             <form className=' flex items-center px-4 gap-4 h-fit w-full rounded-xl bg-[#212121]'>
             <LuSearch className='w-[20px] h-[20px]'/>

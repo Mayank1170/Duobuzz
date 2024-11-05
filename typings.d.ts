@@ -15,15 +15,22 @@ interface LeftSidebarLinkInfo {
 
 
 interface RightSidebarLink {
+    currentIndex: React.Key | null | undefined
+    info: any
+    isActive: any
     id: number,
-    title: string,
-    href: string,
-    icon: typeof iconsName[number],
-    child: boolean,
+    image: string,
+    name: string,
 }
 
-interface RightSidebarLinkInfo {
+interface TopRightSidebarInfo {
     id: number,
     title: string,
-    links: SidebarLink[]
+    info: TopRightSidebarData[]
+}
+
+interface BottomRightSidebarInfo {
+    id: number,
+    title: string,
+    info: BottomRightSidebarData[]
 }

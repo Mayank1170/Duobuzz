@@ -4,7 +4,7 @@ import LeftSidebarLogo from './LeftSidebarLogo'
 
 const LeftSidebar = () => {
     return (
-        <div className='h-screen flex flex-col max-w-[250px] bg-[#212121] gap-10'>
+        <div className='h-screen flex flex-col max-w-[250px] bg-white/5 backdrop-blur-md gap-10'>
             <LeftSidebarLogo />
             <LeftSidebarMenu />
         </div>

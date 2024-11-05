@@ -3,7 +3,7 @@ import { MdOutlineArrowBackIos } from "react-icons/md";
 
 const HeaderBackButton = () => {
   return (
-    <div className='flex h-fit py-[30px] flex-row items-center gap-6'>
+    <div className='flex h-fit  flex-row items-center gap-6'>
       <div className='w-[50px] h-[50px] rounded-2xl flex text-[20px] font-bold justify-center items-center bg-[#212121]'>
         <MdOutlineArrowBackIos fill='white'/>
       </div>

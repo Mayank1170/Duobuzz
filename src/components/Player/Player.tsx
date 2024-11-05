@@ -17,7 +17,6 @@ const Player = () => {
             const width = rect.width;
             const percentage = (x / width) * 100;
             // Here you would update the current time of the song
-            console.log(`Seek to ${percentage.toFixed(2)}%`);
           }}
         >
           <div 
