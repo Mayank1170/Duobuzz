@@ -11,7 +11,7 @@ const Home = () => {
     >
       <TrendySlide />
       <div
-        className="w-full flex max-h-[40vh] flex-col gap-[16px] overflow-scroll pt-[16px]"
+        className="w-full flex max-h-[60vh] flex-col gap-[16px] overflow-scroll pt-[16px]"
         style={{ scrollbarWidth: "none" }}
       >
         <div className="w-full">
